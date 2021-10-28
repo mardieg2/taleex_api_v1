@@ -1,0 +1,33 @@
+//POST https://taleex-api.azurewebsites.net/process
+POST http://127.0.0.1:5000/process
+Content-type: application/json; charset=utf-8
+
+{
+    "text": "text here"
+}
+
+###
+
+
+//POST https://taleex-api.azurewebsites.net/process?lang=es
+POST http://127.0.0.1:5000/process?lang=es
+Content-type: application/json
+
+{
+    "text": "text here"
+}
+
+###
+
+//POST https://taleex-api.azurewebsites.net/process
+POST http://127.0.0.1:5000/process?lang=es
+Content-Type: text/plain
+
+text here
+In the study, published to arXiv, the researchers from Cornell University developed an Android messaging app to collect sample texts from a large number of participants.
+Over the course of seven days, the team gathered a total of 1,703 conversations.
+They then removed the conversations that did not contain any lies, leaving them with 351.
+After separating the lying and truthful messages, the team averaged word counts for each type of message, as well as for gender and student status.
+They also looked at the percentages of ‘self-words’ (such as I/I’m), ‘other-words,’ (you), and noncommittal phrases (probably, possible, sure, etc).
+‘Pronouns are particularly interesting in deception because one actively chooses which pronouns he/she wants to use when communicating,’ the authors explain in the paper.
+‘Self-oriented pronouns show ownership and responsibility while other-oriented pronouns can signal distance and lack of accountability.’
